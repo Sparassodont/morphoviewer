@@ -716,7 +716,7 @@ var morphoviewer = ( function( module ) {
                 "   color.b = 1.0;\n"+
                 "   color.r = 1.0 - 6.0 * (scalar - 0.8333);\n"+
                 "}\n"+
-                "return vec4( color, 1.0 );\n" +
+                "return vec4( 0.0, 0.0, 0.0, 1.0 );\n" +
             "}\n" +
 
             "vec4 shortRainbow( float scalar ) {	//scalar must be normalized!\n" +
