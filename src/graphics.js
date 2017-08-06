@@ -695,6 +695,7 @@ var morphoviewer = ( function( module ) {
             "}\n" +
 
             "vec4 longRainbow( float scalar ) {\n" +
+		"scalar = scalar/2; \n" +
                 "vec3 color = vec3( 0.0, 0.0, 0.0 );\n" +
                 "if ( scalar >= 0.0 && scalar < 0.1666 ) {\n" +
                 "	color.g = scalar * 6.0;\n" +
